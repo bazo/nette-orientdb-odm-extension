@@ -1,0 +1,23 @@
+{
+	"name": "bazo/nette-orientdb-odm-extension",
+	"type": "library",
+	"description": "Nette OrientDB ODM extension",
+	"keywords": ["orient", "db", "orientdb", "nette"],
+	"homepage": "https://github.com/bazo/nette-orientdb-odm-extension",
+	"authors": [
+		{
+			"name": "Martin Bažík",
+			"email": "martin@bazo.sk",
+			"homepage": "http://bazo.sk"
+		}
+	],
+	"require": {
+		"php": ">=5.5.0",
+		"nette/di": "@dev"
+	},
+	"autoload": {
+		"psr-4": {
+			"Bazo\\OrientDbODM\\": "src/"
+		}
+	}
+}
